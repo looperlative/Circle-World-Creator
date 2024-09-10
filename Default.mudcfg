@@ -1,0 +1,1031 @@
+﻿MudConfig=Default CircleMUD 3.x
+<mobiles>
+	VNumMin=0
+	VNumMax=999999
+	AliasMax=32767
+	SDescMax=80
+	LDescMax=80
+	DDescMax=32767
+	<actions>
+		a=Spec
+		b=Sentinel
+		c=Scavenger
+		e=Aware
+		f=Aggressive
+		g=Stay Zone
+		h=Wimpy
+		i=Aggressive Good
+		j=Aggressive Evil
+		k=Aggressive Neutral
+		l=Memory
+		m=Helper
+		n=No Charm
+		o=No Summon
+		p=No Sleep
+		q=No Bash
+		r=No Blind
+	</actions>
+	<affections>
+		a=Blind
+		b=Invisible
+		c=Detect Alignment
+		d=Detect Invisible
+		e=Detect Magic
+		f=Sense Life
+		g=Waterwalk
+		h=Sanctuary
+		j=Curse
+		k=Infravision
+		m=Protection vs. Evil
+		n=Protection vs. Good
+		p=No Track
+		s=Sneak
+		t=Hide
+	</affections>
+	AlignMin=-1000
+	AlignMax=1000
+	LevelMin=0
+	LevelMax=35
+	ThacoMin=-10
+	ThacoMax=20
+	ArmorMin=-10
+	ArmorMax=10
+	HPMinNum=0
+	HPMaxNum=127
+	HPMinDie=0
+	HPMaxDie=127
+	HPMinAdd=-99999
+	HPMaxAdd=99999
+	BHMinNum=0
+	BHMaxNum=127
+	BHMinDie=0
+	BHMaxDie=127
+	BHMinAdd=-99999
+	BHMaxAdd=99999
+	GPMin=0
+	GPMax=999999999
+	XPMin=0
+	XPMax=999999999
+	<positions>
+		4=Sleeping
+		5=Resting
+		6=Sitting
+		8=Standing*
+	</positions>
+	<genders>
+		0=Neutral*
+		1=Male
+		2=Female
+	</genders>
+	<attack_types>
+		0=hit*
+		1=sting
+		2=whip
+		3=slash
+		4=bite
+		5=bludgeon
+		6=crush
+		7=pound
+		8=claw
+		9=maul
+		10=thrash
+		11=pierce
+		12=blast
+		13=punch
+		14=stab
+	</attack_types>
+	<e-specs>
+		<BareHandAttack>
+			SpecTxt=BareHandAttack
+			SpecMin=0
+			SpecMax=14
+			<range>
+				attack_types
+			</range>
+		</BareHandAttack>
+		<Str>
+			SpecTxt=Str
+			SpecMin=0
+			SpecMax=25
+			<range>
+				unused
+			</range>
+		</Str>
+		<Int>
+			SpecTxt=Int
+			SpecMin=0
+			SpecMax=25
+			<range>
+				unused
+			</range>
+		</Int>
+		<Wis>
+			SpecTxt=Wis
+			SpecMin=0
+			SpecMax=25
+			<range>
+				unused
+			</range>
+		</Wis>
+		<Dex>
+			SpecTxt=Dex
+			SpecMin=0
+			SpecMax=25
+			<range>
+				unused
+			</range>
+		</Dex>
+		<Con>
+			SpecTxt=Con
+			SpecMin=0
+			SpecMax=25
+			<range>
+				unused
+			</range>
+		</Con>
+		<Cha>
+			SpecTxt=Cha
+			SpecMin=0
+			SpecMax=25
+			<range>
+				unused
+			</range>
+		</Cha>
+		<StrAdd>
+			SpecTxt=StrAdd
+			SpecMin=0
+			SpecMax=100
+			<range>
+				unused
+			</range>
+		</StrAdd>
+	</e-specs>
+</mobiles>
+<objects>
+	VNumMin=0
+	VNumMax=999999
+	AliasMax=32767
+	SDescMax=80
+	LDescMax=80
+	ADescMax=32767
+	<types>
+		1=Light
+		2=Scroll
+		3=Wand
+		4=Staff
+		5=Weapon
+		8=Treasure
+		9=Armor
+		10=Potion
+		12=Other*
+		13=Trash
+		15=Container
+		16=Note
+		17=Drink Container
+		18=Key
+		19=Food
+		20=Money
+		21=Pen
+		22=Boat
+		23=Fountain
+	</types>
+	<effects>
+		a=Glow
+		b=Hum
+		c=No Rent
+		d=No Donate
+		e=No Invisible
+		f=Invisible
+		g=Magic
+		h=No Drop
+		i=Bless
+		j=Anti-Good
+		k=Anti-Evil
+		l=Anti-Neutral
+		m=Anti-Magic-User
+		n=Anti-Cleric
+		o=Anti-Thief
+		p=Anti-Warrior
+		q=No Sell
+	</effects>
+	<wear>
+		a=Take*
+		b=Finger
+		c=Neck
+		d=Body
+		e=Head
+		f=Legs
+		g=Feet
+		h=Hands
+		i=Arms
+		j=Shield
+		k=About
+		l=Waist
+		m=Wrist
+		n=Wield
+		o=Hold
+	</wear>
+	WeightMin=0
+	WeightMax=99999
+	CostMin=0
+	CostMax=999999999
+	RentMin=0
+	RentMax=999999999
+	EKeyWMax=32767
+	EDescMax=32767
+	AffectsMax=6
+	<affects>
+		0=None*
+		1=Strength
+		2=Dexterity
+		3=Intelligence
+		4=Constitution
+		5=Wisdom
+		6=Charisma
+		9=Age
+		10=Weight
+		11=Height
+		12=Mana
+		13=Hit Points
+		14=Movement
+		17=Armor Class
+		18=Hitroll
+		19=Damroll
+		20=Save vs. Paralyzation
+		21=Save vs. Rods
+		22=Save vs. Petrification
+		23=Save vs. Breath
+		24=Save vs. Magic
+	</affects>
+	<values>
+		<light>
+			<value0>
+				unused
+			</value0>
+			<value1>
+				unused
+			</value1>
+			<value2>
+				Value2Txt=Light Capacity (-1 for Unlimited)
+				Value2Min=-1
+				Value2Max=99999
+				<range>
+					unused
+				</range>
+			</value2>
+			<value3>
+				unused
+			</value3>
+		</light>
+		<scroll>
+			<value0>
+				Value0Txt=Caster Level
+				Value0Min=0
+				Value0Max=35
+				<range>
+					unused
+				</range>
+			</value0>
+			<value1>
+				Value1Txt=Spell 1
+				Value1Min=-1
+				Value1Max=201
+				<range>
+					spells
+				</range>
+			</value1>
+			<value2>
+				Value2Txt=Spell 2
+				Value2Min=-1
+				Value2Max=201
+				<range>
+					spells
+				</range>
+			</value2>
+			<value3>
+				Value3Txt=Spell 2
+				Value3Min=-1
+				Value3Max=201
+				<range>
+					spells
+				</range>
+			</value3>
+		</scroll>
+		<wand>
+			<value0>
+				Value0Txt=Caster Level
+				Value0Min=0
+				Value0Max=35
+				<range>
+					unused
+				</range>
+			</value0>
+			<value1>
+				Value1Txt=Charge Capacity
+				Value1Min=1
+				Value1Max=99999
+				<range>
+					unused
+				</range>
+			</value1>
+			<value2>
+				Value2Txt=Current Charges
+				Value2Min=0
+				Value2Max=99999
+				<range>
+					unused
+				</range>
+			</value2>
+			<value3>
+				Value3Txt=Spell
+				Value3Min=-1
+				Value3Max=201
+				<range>
+					spells
+				</range>
+			</value3>
+		</wand>
+		<staff>
+			<value0>
+				Value0Txt=Caster Level
+				Value0Min=0
+				Value0Max=35
+				<range>
+					unused
+				</range>
+			</value0>
+			<value1>
+				Value1Txt=Charge Capacity
+				Value1Min=1
+				Value1Max=99999
+				<range>
+					unused
+				</range>
+			</value1>
+			<value2>
+				Value2Txt=Current Charges
+				Value2Min=0
+				Value2Max=99999
+				<range>
+					unused
+				</range>
+			</value2>
+			<value3>
+				Value3Txt=Spell
+				Value3Min=-1
+				Value3Max=201
+				<range>
+					spells
+				</range>
+			</value3>
+		</staff>
+		<weapon>
+			<value0>
+				unused
+			</value0>
+			<value1>
+				Value1Txt=Num. Dice
+				Value1Min=0
+				Value1Max=127
+				<range>
+					unused
+				</range>
+			</value1>
+			<value2>
+				Value2Txt=Die Size
+				Value2Min=0
+				Value2Max=127
+				<range>
+					unused
+				</range>
+			</value2>
+			<value3>
+				Value3Txt=Weapon Type
+				Value3Min=0
+				Value3Max=14
+				<range>
+					weapon_types
+				</range>
+			</value3>
+		</weapon>
+		<treasure>
+			unused
+		</tresure>
+		<armor>
+			<value0>
+				Value0Txt=AC Apply
+				Value0Min=-100
+				Value0Max=100
+				<range>
+					unused
+				</range>
+			</value0>
+			<value1>
+				unused
+			</value1>
+			<value2>
+				unused
+			</value2>
+			<value3>
+				unused
+			</value3>
+		</armor>
+		<potion>
+			<value0>
+				Value0Txt=Caster Level
+				Value0Min=0
+				Value0Max=35
+				<range>
+					unused
+				</range>
+			</value0>
+			<value1>
+				Value1Txt=Spell 1
+				Value1Min=-1
+				Value1Max=201
+				<range>
+					spells
+				</range>
+			</value1>
+			<value2>
+				Value2Txt=Spell 2
+				Value2Min=-1
+				Value2Max=201
+				<range>
+					spells
+				</range>
+			</value2>
+			<value3>
+				Value3Txt=Spell 3
+				Value3Min=-1
+				Value3Max=201
+				<range>
+					spells
+				</range>
+			</value3>
+		</potion>
+		<other>
+			unused
+		</other>
+		<trash>
+			unused
+		</trash>
+		<container>
+			<value0>
+				Value0Txt=Capacity
+				Value0Min=0
+				Value0Max=99999
+				<range>
+					unused
+				</range>
+			</value0>
+			<value1>
+				Value1Txt=Container Flag
+				Value1Min=0
+				Value1Max=15
+				<range>
+					0=Open Container
+					1=Closeable
+					2=Pickproof
+					3=Closeable/Pickproof
+					4=Closed
+					5=Closeable/Closed
+					6=Pickproof/Closed
+					7=Closeable/Pickproof/Closed
+					8=Locked
+					9=Closeable/Locked
+					10=Pickproof/Locked
+					11=Closeable/Pickproof/Locked
+					12=Closed/Locked
+					13=Closeable/Closed/Locked
+					14=Pickproof/Closed/Locked
+					15=Closeable/Pickproof/Closed/Locked
+				</range>
+			</value1>
+			<value2>
+				Value2Txt=Key (-1 for No Key)
+				Value2Min=-1
+				Value2Max=999999
+				<range>
+					objects
+				</range>
+			</value2>
+			<value3>
+				unused
+			</value3>
+		</container>
+		<note>
+			unused
+		</note>
+		<drink_container>
+			<value0>
+				Value0Txt=Capacity
+				Value0Min=0
+				Value0Max=99999
+				<range>
+					unused
+				</range>
+			</value0>
+			<value1>
+				Value1Txt=Current Qty.
+				Value1Min=0
+				Value1Max=99999
+				<range>
+					unused
+				</range>
+			</value1>
+			<value2>
+				Value2Txt=Liquid
+				Value2Min=0
+				Value2Max=15
+				<range>
+					liquids
+				</range>
+			</value2>
+			<value3>
+				Value3Txt=Is Poisoned
+				Value3Min=0
+				Value3Max=1
+				<range>
+					0=No
+					1=Yes
+				</range>
+			</value3>
+		</drink_container>
+		<key>
+			unused
+		</key>
+		<food>
+			<value0>
+				Value0Txt=Fill Hours
+				Value0Min=0
+				Value0Max=99999
+				<range>
+					unused
+				</range>
+			</value0>
+			<value1>
+				unused
+			</value1>
+			<value2>
+				unused
+			</value2>
+			<value3>
+				Value3Txt=Is Poisoned
+				Value3Min=0
+				Value3Max=1
+				<range>
+					0=No
+					1=Yes
+				</range>
+			</value3>
+		</food>
+		<money>
+			<value0>
+				Value0Txt=Num. Coins
+				Value0Min=0
+				Value0Max=999999999
+				<range>
+					unused
+				</range>
+			</value0>
+			<value1>
+				unused
+			</value1>
+			<value2>
+				unused
+			</value2>
+			<value3>
+				unused
+			</value3>
+		</money>
+		<pen>
+			unused
+		</pen>
+		<boat>
+			unused
+		</boat>
+		<fountain>
+			<value0>
+				Value0Txt=Capacity
+				Value0Min=0
+				Value0Max=99999
+				<range>
+					unused
+				</range>
+			</value0>
+			<value1>
+				Value1Txt=Current Qty.
+				Value1Min=0
+				Value1Max=99999
+				<range>
+					unused
+				</range>
+			</value1>
+			<value2>
+				Value2Txt=Liquid
+				Value2Min=0
+				Value2Max=15
+				<range>
+					liquids
+				</range>
+			</value2>
+			<value3>
+				Value3Txt=Is Poisoned
+				Value3Min=0
+				Value3Max=1
+				<range>
+					0=No
+					1=Yes
+				</range>
+			</value3>
+		</fountain>
+	</values>
+	<spells>
+		-1=No Spell
+		45=Animate Dead
+		1=Armor
+		3=Bless
+		4=Blindness
+		5=Burning Hands
+		6=Call Lightning
+		7=Charm
+		8=Chill Touch
+		9=Clone
+		10=Color Spray
+		11=Control Weather
+		12=Create Food
+		13=Create Water
+		14=Cure Blind
+		15=Cure Critic
+		16=Cure Light
+		17=Curse
+		18=Detect Alignment
+		19=Detect Invisible
+		20=Detect Magic
+		21=Detect Poison
+		22=Dispel Evil
+		46=Dispel Good
+		23=Earthquake
+		24=Enchant Weapon
+		25=Energy Drain
+		26=Fireball
+		47=Group Armor
+		48=Group Heal
+		49=Group Recall
+		27=Harm
+		28=Heal
+		201=Identify
+		50=Infravision
+		29=Invisible
+		30=Lightning Bolt
+		31=Locate Object
+		32=Magic Missile
+		33=Poison
+		34=Protection vs. Evil
+		35=Remove Curse
+		43=Remove Poison
+		36=Sanctuary
+		44=Sense Life
+		37=Shocking Grasp
+		38=Sleep
+		39=Strength
+		40=Summon
+		2=Teleport
+		41=Ventriloquate
+		52=Waterwalk
+		42=Word of Recall
+	</spells>
+	<liquids>
+		0=Water
+		1=Beer
+		2=Wine
+		3=Ale
+		4=Dark Ale
+		5=Whiskey
+		6=Lemonade
+		7=Firebreather
+		8=Local Special
+		9=Slime
+		10=Milk
+		11=Tea
+		12=Coffee
+		13=Blood
+		14=Saltwater
+		15=Clearwater
+	</liquids>
+</objects>
+<rooms>
+	VNumMin=0
+	VNumMax=999999
+	RNameMax=80
+	RDescMax=32767
+	<bitvectors>
+		a=Dark
+		b=Death
+		c=No Mobiles
+		d=Indoors
+		e=Peaceful
+		f=Soundproof
+		g=No Track
+		h=No Magic
+		i=Tunnel
+		j=Private
+		k=God Room
+	</bitvectors>
+	<sectors>
+		0=Inside*
+		1=City
+		2=Field
+		3=Forest
+		4=Hills
+		5=Mountain
+		6=Water (Swim)
+		7=Water (No Swim)
+		8=Underwater
+		9=Flying
+	</sectors>
+	<doors>
+		0=Normal Exit*
+		1=Normal Door
+		2=Pickproof Door
+	</doors>
+	DKeyWMax=32767
+	DDescMax=32767
+	EKeyWMax=32767
+	EDescMax=32767
+</rooms>
+<shops>
+	VNumMin=0
+	VNumMax=999999
+	BMulMin=0
+	BMulMax=99999
+	SMulMin=0
+	SMulMax=99999
+	ObjVNumMin=0
+	ObjVNumMax=999999
+	<buy_types>
+		LIGHT
+		SCROLL
+		WAND
+		STAFF
+		WEAPON
+		TREASURE
+		ARMOR
+		POTION
+		OTHER
+		TRASH
+		CONTAINER
+		NOTE
+		LIQ CONTAINER
+		KEY
+		FOOD
+		PEN
+		BOAT
+		FOUNTAIN
+	</buy_types>
+	MLenMax=80
+	<tempers>
+		-1=Message Only*
+		0=Pukes on Player
+		1=Smokes a Joint
+	</tempers>
+	<bitvectors>
+		a=Will Fight
+		b=Banks Money
+	</bitvectors>
+	MobVNumMin=0
+	MobVNumMax=999999
+	<no_sell>
+		a=Good Alignment
+		b=Evil Alignment
+		c=Neutral Alignment
+		d=Magic-User
+		e=Cleric
+		f=Thief
+		g=Warrior
+	</no_sell>
+	WldVNumMin=0
+	WldVNumMax=999999
+	TimeMin=0
+	TimeMax=28
+</shops>
+<zone>
+	VNumMin=0
+	VNumMax=999999
+	NameMax=80
+	LifeMin=0
+	LifeMax=99999
+	<resets>
+		0=Never
+		1=Deserted
+		2=Always*
+	</resets>
+	<commands>
+		M=Load a Mobile
+		O=Load an Object to Room
+		G=Give Object to Previous Mobile
+		E=Equip Previous Mobile with Object
+		P=Put Object1 in Object2
+		D=Set the State of a Door
+		R=Remove Object(s) from Room
+	</commands>
+	<command_info>
+		<M>
+			<arg0>
+				Arg0Txt=Mobile
+				Arg0Min=0
+				Arg0Max=999999
+				<range>
+					mobiles
+				</range>
+			</arg0>
+			<arg1>
+				Arg1Txt=Maximum Existing
+				Arg1Min=0
+				Arg1Max=99999
+				<range>
+					unused
+				</range>
+			</arg1>
+			<arg2>
+				Arg2Txt=Room
+				Arg2Min=0
+				Arg2Max=999999
+				<range>
+					rooms
+				</range>
+			</arg2>
+		</M>
+		<O>
+			<arg0>
+				Arg0Txt=Object
+				Arg0Min=0
+				Arg0Max=999999
+				<range>
+					objects
+				</range>
+			</arg0>
+			<arg1>
+				Arg1Txt=Maximum Existing
+				Arg1Min=0
+				Arg1Max=99999
+				<range>
+					unused
+				</range>
+			</arg1>
+			<arg2>
+				Arg2Txt=Room
+				Arg2Min=0
+				Arg2Max=999999
+				<range>
+					rooms
+				</range>
+			</arg2>
+		</O>
+		<G>
+			<arg0>
+				Arg0Txt=Object
+				Arg0Min=0
+				Arg0Max=999999
+				<range>
+					objects
+				</range>
+			</arg0>
+			<arg1>
+				Arg1Txt=Maximum Existing
+				Arg1Min=0
+				Arg1Max=99999
+				<range>
+					unused
+				</range>
+			</arg1>
+			<arg2>
+				unused
+			</arg2>
+		</G>
+		<E>
+			<arg0>
+				Arg0Txt=Object
+				Arg0Min=0
+				Arg0Max=999999
+				<range>
+					objects
+				</range>
+			</arg0>
+			<arg1>
+				Arg1Txt=Maximum Existing
+				Arg1Min=0
+				Arg1Max=99999
+				<range>
+					unused
+				</range>
+			</arg1>
+			<arg2>
+				Arg2Txt=Equipment Position
+				Arg2Min=0
+				Arg2Max=17
+				<range>
+					0=Light
+					1=Right Finger
+					2=Left Finger
+					3=First Neck
+					4=Second Neck
+					5=Body
+					6=Head
+					7=Legs
+					8=Feet
+					9=Hands
+					10=Arms
+					11=Shield
+					12=Body
+					13=Waist
+					14=Right Wrist
+					15=Left Wrist
+					16=Wield
+					17=Held
+				</range>
+			</arg2>
+		</E>
+		<P>
+			<arg0>
+				Arg0Txt=Object1
+				Arg0Min=0
+				Arg0Max=999999
+				<range>
+					objects
+				</range>
+			</arg0>
+			<arg1>
+				Arg1Txt=Maximum Existing
+				Arg1Min=0
+				Arg1Max=99999
+				<range>
+					unused
+				</range>
+			</arg1>
+			<arg2>
+				Arg2Txt=Object2
+				Arg2Min=0
+				Arg2Max=999999
+				<range>
+					objects
+				</range>
+			</arg2>
+		</P>
+		<D>
+			<arg0>
+				Arg0Txt=Room
+				Arg0Min=0
+				Arg0Max=999999
+				<range>
+					rooms
+				</range>
+			</arg0>
+			<arg1>
+				Arg1Txt=Exit
+				Arg1Min=0
+				Arg1Max=5
+				<range>
+					0=North
+					1=East
+					2=South
+					3=West
+					4=Up
+					5=Down
+				</range>
+			</arg1>
+			<arg2>
+				Arg2Txt=Door State
+				Arg2Min=0
+				Arg2Max=2
+				<range>
+					0=Open
+					1=Closed
+					2=Closed and Locked
+				</range>
+			</arg2>
+		</D>
+		<R>
+			<arg0>
+				Arg0Txt=Room
+				Arg0Min=0
+				Arg0Max=999999
+				<range>
+					rooms
+				</range>
+			</arg0>
+			<arg1>
+				Arg1Txt=Object
+				Arg1Min=0
+				Arg1Max=999999
+				<range>
+					objects
+				</range>
+			</arg1>
+			<arg2>
+				unused
+			</arg2>
+		</R>
+	</command_info>
+</zone>
